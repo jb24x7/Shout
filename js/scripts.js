@@ -25,7 +25,7 @@ window.onload = function() {
     event.preventDefault();
     let input = document.getElementById("userInput").value;
 
-    document.querySelector("span#userInput").innerText = input;
+    document.querySelector("span#userInput").innerText = input.toUpperCase();
 
     document.querySelector("div#shout").removeAttribute("class");
     
